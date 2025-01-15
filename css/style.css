@@ -235,6 +235,7 @@ a.my-cv:hover {
 .item1 { grid-area: one; background-image: url(../img/project05.png); }
 .item2 { grid-area: two; background-image: url(../img/martella_logo2.png); }
 .item3 { grid-area: three; background-image: url(../img/xlearn.png); }
+.item4 { grid-area: three; background-image: url(../img/icon_namibe-01.png); }
 
 .project-grid {
   display: grid;
