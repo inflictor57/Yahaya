@@ -283,11 +283,15 @@
           </div>
           <div class="col-md-6">
             <div class="form">
-              <form class="formSubmit" action="contactyhy.php" method="POST">
-                <input type="text" name="full_name" placeholder="Full Name" required><br>
+              <form class="formSubmit" method="POST" data-netlify="true">
+                <input type="text" name="name" placeholder="Full Name" required><br>
                 <input type="email" name="email" placeholder="Email" required>
                 <input type="number" name="phone" placeholder="Phone No."><br>
                 <textarea name="message" id="msg" placeholder="Message" cols="30" rows="10" required></textarea><br>
+                <div class="field">
+                  <div data-netlify-recaptcha="true"></div>
+                </div>
+                
                 <button class="button" type="submit">Send Message</button>
               </form>            
             </div>
