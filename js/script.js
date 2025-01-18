@@ -14,9 +14,9 @@ class Footer extends HTMLElement {
             <div class="sort-note">
               <a class="navbar-brand" href="index.html">Yahaya B.</a>
               <hr style="margin: 20px 0; color: rgb(82, 82, 82); width: 60%;">
-              <span class="contact"><a href="mailto:mr.encrypted123@gmail.com" class="email">
+              <span class="contact"><a href="mailto:barayavugayahaya@gmail.com" class="email">
                 <img src="./img/email.png" alt="email me"> &nbsp; &nbsp;
-                mr.encrypted123@gmail.com</a></span>
+                barayavugayahaya@gmail.com</a></span>
             </div>
             <div class="quike-links text-center">
               <ul>
